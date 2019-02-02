@@ -1,12 +1,142 @@
-*{
-box-sizing: border-box;
+* {
+  box-sizing: border-box;
+  /* font-family: 'Muli', sans-serif; */
+  font-family: 'Merriweather', serif;
+  padding: 0;
+  margin: 0;
+}
+body, html{
+  margin: 0;
+  padding: 0;
+}
+body{
+overflow-x: hidden;
+
 }
 
-#about{
-  background-image: url("img/woodenFloor.jpeg");
+/* .call-us {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+} */
+#header {
+  background-image: url("img/sofa.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  background-position-y: 90%;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+
+}
+
+.banner {
+ padding: 20px;
+
+  background-color: rgba(0,0,0,0.5);
+
+  margin-top: 50vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner-text-primary {
+  padding: 0;
+  margin: 0;
+  font-size: 5vh;
+  text-align: center;
+}
+
+.banner-text-secondary {
+  padding: 0;
+  margin: 0;
+  font-size: 3vh;
+  font-style: italic;
+  text-align: right;
+}
+.about-title-text{
+  padding: 0;
+  margin: 40px 0px 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.about-content{
+  margin: 20px;
+  text-align:center;
+}
+
+.about-title  {
+ width: 100%;
+ margin: 0;
+ padding: 0;
+}
+
+.about-title > div {
   width: 100%;
-  
+}
+
+
+.offer-title-text{
+  padding: 0;
+  margin: 40px 0px 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.offer-content-img{
+  width: 100%;
+}
+
+.offer-content-text{
+  margin: 20px;
+  text-align: center;
+}
+
+.offer-content-text > h4 {
+  font-weight: bold;
+}
+
+.gallery {
+  height: calc(100vh - 45.656px);
+  background-color: #141045;
+  margin-top: 15px;
+  padding-bottom: 25px;
+}
+
+.contact{
+  height: auto;
+  background-color: #141045;
+  padding-bottom: 25px;
+}
+
+
+.gallery-title-text, .contact-title-text{
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.cowork{
+  /* height: calc(100vh - 45.656px); */
+  height: 70px;
+}
+
+.contact-content-text > div >p{
+  color: white;
+  text-align: center;
+  line-height: 10px;
+
+}
+
+.carousel{
+  height: 85%;
+}
+
+.carousel-inner, .carousel-item{
+  height: 100%;
 }
