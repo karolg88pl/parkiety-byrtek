@@ -24,19 +24,15 @@ overflow-x: hidden;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
   background-position-y: 90%;
-  width: 100vw;
+  /* width: 100vw; */
   height: 100vh;
   color: white;
-
 }
 
 .banner {
- padding: 20px;
-
+  padding: 20px;
   background-color: rgba(0,0,0,0.5);
-
   margin-top: 50vh;
   margin-left: auto;
   margin-right: auto;
@@ -58,14 +54,15 @@ overflow-x: hidden;
 }
 .about-title-text{
   padding: 0;
-  margin: 40px 0px 30px;
+  margin: 40px 0px 40px;
   text-align: center;
   font-weight: bold;
 }
 
 .about-content{
-  margin: 20px;
+  margin: 0 20px 45px;
   text-align:center;
+  /* padding: 0 10px 0; */
 }
 
 .about-title  {
@@ -78,10 +75,24 @@ overflow-x: hidden;
   width: 100%;
 }
 
+.about-content-bordered{
+  border: 2px solid #141045;
+  padding: 20px;
+  margin: 0 auto;
+}
+.about-content-bordered > p{
+text-align: center;
+padding: 0;
+margin: 0;
+}
 
+.offer{
+  background-color: #141045;
+  color: white;
+}
 .offer-title-text{
   padding: 0;
-  margin: 40px 0px 30px;
+  margin: 40px 0px 40px;
   text-align: center;
   font-weight: bold;
 }
@@ -100,9 +111,8 @@ overflow-x: hidden;
 }
 
 .gallery {
-  height: calc(100vh - 45.656px);
-  background-color: #141045;
-  margin-top: 15px;
+  /* height: calc(100vh - 45.656px); */
+  color: #141045;
   padding-bottom: 25px;
 }
 
@@ -116,14 +126,16 @@ overflow-x: hidden;
 .gallery-title-text, .contact-title-text{
   font-weight: bold;
   text-align: center;
+  margin: 40px 0 40px;
+}
+
+.contact-title-text{
   color: white;
-  margin-top: 15px;
-  margin-bottom: 15px;
 }
 
 .cowork{
   /* height: calc(100vh - 45.656px); */
-  height: 70px;
+
 }
 
 .contact-content-text > div >p{
@@ -133,10 +145,27 @@ overflow-x: hidden;
 
 }
 
+
+@media screen and (max-width: 767px) {
+.contact-content-text{
+  padding:0 30px 0;
+}
+.contact-content-czech{
+  border-top: 2px solid white;
+  padding-top: 20px;
+}
+}
+
 .carousel{
   height: 85%;
+  margin-top: 25px;
 }
 
 .carousel-inner, .carousel-item{
   height: 100%;
+}
+
+.galleryImage{
+  width:100%;
+  margin:0 auto;
 }

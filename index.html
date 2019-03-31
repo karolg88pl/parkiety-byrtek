@@ -8,7 +8,8 @@
   <meta name="description" content="Zbigniew Byrtek Usługi Parkieciarskie. Na rynku istniejemy od 2002 roku. Zdobyliśmy zaufanie klientów solidną i rzetelną pracą, krótkimi terminami wykonania. Doświadczenie zdobyte podczas wieloletniej pracy w kraju i za granicą pozwala nam na utrzymywanie naszych usług na najwyższym poziomie.">
 
   <title>Zbigniew Byrtek "Usługi Parkieciarskie" - zapraszamy do skorzystania z naszej oferty.</title>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+  <script src="vendor/jquery/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
@@ -24,16 +25,16 @@
 <body>
   <header id="header" class="container-fluid">
     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
-      <a class="navbar-brand" href="#" style="width:20vh"><img src="img/logo.png" style="width:100%"></a>
+      <a class="navbar-brand js-scroll-trigger" href="#" style="width:20vh"><img src="img/logo.png" style="width:100%"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link active" href="#offer">OFERTA</a></li>
-          <li class="nav-item"><a class="nav-link" href="#gallery">GALERIA</a></li>
-          <li class="nav-item"><a class="nav-link" href="#cowork">WSPÓŁPRACA</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">KONTAKT</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">O FIRMIE</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#offer">OFERTA</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#gallery">GALERIA</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">KONTAKT</a></li>
         </ul>
       </div>
     </nav>
@@ -53,15 +54,16 @@
   </div>
 </div>
 <div class="row about-content">
-  <div class="col col-sm-12 border">
+  <div class="col col-11 col-md-9 about-content-bordered">
     <p>
-      Od 2002 roku wykonujemy usługi parkieciarskie. Dzięki fachowej wiedzy, dostępowi do zaawansowanych technologii<br> i profesjonalnym urządzeniom jesteśmy w stanie dostarczać Państwu usługi na najwyższym poziomie.
-      Nasza firma działa głównie na terenie województwa śląskiego, a także na terenie przygranicznym Czech i Słowacji. Dzięki współpracy ze sklepami: WIK, RUCKZUCK istnieje możliwość, przy zakupie materiału, montażu z 8% stawką VAT.
-      Chętnie doradzimy Państwu jaki gatunek podłogi wybrać, tak żeby wykonana podłoga była estetyczna i funkcjonalna.</p>
-    </div>
+      Od 2002 roku wykonujemy usługi parkieciarskie. Dzięki fachowej wiedzy, dostępowi do zaawansowanych technologii i&nbsp;profesjonalnym urządzeniom jesteśmy w&nbsp;stanie dostarczać Państwu usługi na najwyższym poziomie.<br><br>
+      Nasza firma działa głównie na terenie województwa śląskiego, a&nbsp;także na terenie przygranicznym Czech i&nbsp;Słowacji. Dzięki współpracy ze sklepami: WIK, RUCKZUCK istnieje możliwość, przy zakupie materiału, montażu z&nbsp;8% stawką VAT.
+      Chętnie doradzimy Państwu jaki gatunek podłogi wybrać, tak żeby wykonana podłoga była estetyczna i&nbsp;funkcjonalna.</p>
+
+  </div>
   </div>
   </section>
-  <section id="offer" class="container-fluid">
+  <section id="offer" class="container-fluid offer">
     <div class="row offer-title">
       <div class="col col-sm-12">
         <h1 class="offer-title-text">NASZA OFERTA</h1>
@@ -71,18 +73,18 @@
       <div class="col-sm-12 col-md-4">
         <img class="offer-content-img" src="img/hammer.jpeg">
         <div class="offer-content-text">
-          <h4>Przygotowanie podłoża i pomiar</h4>
+          <h4>Przygotowanie podłoża i&nbsp;pomiar</h4>
           <p>
             Wykonujemy pomiary wilgotności podłoża, powietrza
-            i podłogi która zostanie ułożona.
-            Sprawdzamy równość i twardość podłoża.</p>
+            i&nbsp;podłogi która zostanie ułożona.
+            Sprawdzamy równość i&nbsp;twardość podłoża.</p>
         </div>
       </div>
       <div class="col-sm-12 col-md-4">
         <img class="offer-content-img" src="img/kitchen.jpeg">
         <div class="offer-content-text">
           <h4>Usługi parkieciarskie</h4>
-          <p>Oferujemy profesjonalne i kompleksowe usługi parkieciarskie.
+          <p>Oferujemy profesjonalne i&nbsp;kompleksowe usługi parkieciarskie.
             Układamy oraz wykańczamy wszystkie rodzaje podłóg.</p>
         </div>
       </div>
@@ -90,7 +92,7 @@
         <img class="offer-content-img" src="img/oldfloor.jpeg">
         <div class="offer-content-text">
           <h4>Renowacja podłóg</h4>
-          <p>Do renowacji i cyklinowania podłóg oraz schodów
+          <p>Do renowacji i&nbsp;cyklinowania podłóg oraz schodów
             używamy bezpyłowych maszyn najwyższej klasy.</p>
         </div>
       </div>
@@ -103,36 +105,36 @@
   </section>
 
   <section id="gallery" class="gallery container-fluid">
-    <div class="row gallery-title">
+    <!-- <div class="row gallery-title">
       <div class="col col-sm-12">
         <h1 class="gallery-title-text">GALERIA</h1>
       </div>
-    </div>
+    </div> -->
     <div id="carouselControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <picture class="d-block w-100">
-            <source media="(max-width: 799px)" srcset="img/gal1.jpeg">
-            <source media="(min-width: 800px)" srcset="img/gal1.jpeg">
-            <img src="img/gal1.jpeg">
+            <source media="(max-width: 799px)" srcset="img/mob_gal4.jpg">
+            <source media="(min-width: 800px)" srcset="img/desk_gal4.jpg">
+            <img class="galleryImage" src="img/gal1.jpeg">
           </picture>
           <!-- <img class="d-block w-100" src="img/gal1.jpeg" alt="First slide"> -->
         </div>
 
         <div class="carousel-item">
           <picture class="d-block w-100">
-            <source media="(max-width: 799px)" srcset="img/gal3.jpeg">
-            <source media="(min-width: 800px)" srcset="img/gal3.jpeg">
-            <img src="img/gal3.jpeg">
+            <source media="(max-width: 799px)" srcset="img/mob_gal2.jpg">
+            <source media="(min-width: 800px)" srcset="img/desk_gal2.jpg">
+            <img class="galleryImage" src="img/gal3.jpeg">
           </picture>
           <!-- <img class="d-block w-100" src="img/gal3.jpeg" alt="Third slide"> -->
         </div>
 
         <div class="carousel-item">
           <picture class="d-block w-100">
-            <source media="(max-width: 799px)" srcset="img/gal5.jpeg">
-            <source media="(min-width: 800px)" srcset="img/gal5.jpeg">
-            <img src="img/gal5.jpeg">
+            <source media="(max-width: 799px)" srcset="img/mob_gal3.jpg">
+            <source media="(min-width: 800px)" srcset="img/desk_gal3.jpg">
+            <img class="galleryImage" src="img/gal5.jpeg">
           </picture>
           <!-- <img class="d-block w-100" src="img/gal5.jpeg" alt="Fifth slide"> -->
         </div>
@@ -161,7 +163,7 @@
 
       </div>
       <div class="row contact-content-text">
-        <div class="col-sm-12 col-md-6">
+        <div class="col-sm-12 col-md-6 contact-content-poland">
           <p><b>Oddział w Polsce:</b></p>
           <p>Zbigniew Byrtek</p>
           <p>"Usługi Parkieciarskie"</p>
@@ -172,7 +174,7 @@
           <p>Fax: (33) 852 95 47</p>
           <p>biuro@parkietybyrtek.eu</p>
         </div>
-        <div class="col-sm-12 col-md-6">
+        <div class="col-sm-12 col-md-6 contact-content-czech">
           <p><b>Oddział w Czechach:</b></p>
           <p>Zbigniew Byrtek</p>
           <p>Byrtek Podlahy</p>
@@ -187,6 +189,8 @@
 
   </footer>
 
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+<script src="js/scrolling-nav.js"></script>
 </body>
 
 
