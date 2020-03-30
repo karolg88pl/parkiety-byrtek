@@ -145,12 +145,19 @@ body{
 }
 
 .carousel{
-  height: 85%;
   margin-top: 25px;
 }
 
-.carousel-inner, .carousel-item{
-  height: 100%;
+@media screen and (orientation: portrait) {
+  .carousel-inner, .carousel-item {
+    max-height: 100%;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  .carousel-inner, .carousel-item {
+    max-height: 75vh;
+  }
 }
 
 .galleryImage{
