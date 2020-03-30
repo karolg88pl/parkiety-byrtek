@@ -18,8 +18,4 @@
     $('.navbar-collapse').collapse('hide');
   });
 
-  // $('body').scrollspy({
-  //   target: '#mainNav',
-  //   offset: 56
-  // });
 })(jQuery);

@@ -1,31 +1,25 @@
 * {
   box-sizing: border-box;
-  /* font-family: 'Muli', sans-serif; */
   font-family: 'Merriweather', serif;
   padding: 0;
   margin: 0;
 }
+
 body, html{
   margin: 0;
   padding: 0;
 }
-body{
-overflow-x: hidden;
 
+body{
+  overflow-x: hidden;
 }
 
-/* .call-us {
-  position: fixed;
-  right: 0px;
-  bottom: 0px;
-} */
 #header {
   background-image: url("img/sofa.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: 90%;
-  /* width: 100vw; */
   height: 100vh;
   color: white;
 }
@@ -52,6 +46,7 @@ overflow-x: hidden;
   font-style: italic;
   text-align: right;
 }
+
 .about-title-text{
   padding: 0;
   margin: 40px 0px 40px;
@@ -62,7 +57,6 @@ overflow-x: hidden;
 .about-content{
   margin: 0 20px 45px;
   text-align:center;
-  /* padding: 0 10px 0; */
 }
 
 .about-title  {
@@ -80,10 +74,11 @@ overflow-x: hidden;
   padding: 20px;
   margin: 0 auto;
 }
+
 .about-content-bordered > p{
-text-align: center;
-padding: 0;
-margin: 0;
+  text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 .offer{
@@ -111,7 +106,6 @@ margin: 0;
 }
 
 .gallery {
-  /* height: calc(100vh - 45.656px); */
   color: #141045;
   padding-bottom: 25px;
 }
@@ -121,7 +115,6 @@ margin: 0;
   background-color: #141045;
   padding-bottom: 25px;
 }
-
 
 .gallery-title-text, .contact-title-text{
   font-weight: bold;
@@ -133,27 +126,22 @@ margin: 0;
   color: white;
 }
 
-.cowork{
-  /* height: calc(100vh - 45.656px); */
-
-}
-
 .contact-content-text > div >p{
   color: white;
   text-align: center;
   line-height: 10px;
-
 }
 
 
 @media screen and (max-width: 767px) {
-.contact-content-text{
-  padding:0 30px 0;
-}
-.contact-content-czech{
-  border-top: 2px solid white;
-  padding-top: 20px;
-}
+  .contact-content-text{
+    padding:0 30px 0;
+  }
+
+  .contact-content-czech{
+    border-top: 2px solid white;
+    padding-top: 20px;
+  }
 }
 
 .carousel{
