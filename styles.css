@@ -152,15 +152,29 @@ body{
   .carousel-inner, .carousel-item {
     max-height: 100%;
   }
+
+  .carousel-item > picture > img {
+    max-height: 100%;
+    margin-top: 0;
+  }
 }
 
 @media screen and (orientation: landscape) {
   .carousel-inner, .carousel-item {
     max-height: 75vh;
   }
+
+  .carousel-item > picture > img {
+    max-height: 100%;
+    margin-top: -200px;
+  }
 }
 
 .galleryImage{
   width:100%;
   margin:0 auto;
+}
+
+section, footer {
+  padding-top: 15px;
 }
